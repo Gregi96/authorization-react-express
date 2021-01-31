@@ -1,0 +1,24 @@
+.logout {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: space-around;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(231, 231, 231);
+  padding: 15px;
+  border-radius: 5px;
+
+  &__title {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+  }
+}

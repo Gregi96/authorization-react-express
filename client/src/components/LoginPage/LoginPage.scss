@@ -1,0 +1,37 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid gray;
+  padding: 20px 10px;
+  border-radius: 5px;
+
+  &__title {
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  &__input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  &__submit {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(204, 204, 204);
+    }
+  }
+}

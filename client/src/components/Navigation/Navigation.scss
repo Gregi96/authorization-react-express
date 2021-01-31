@@ -1,0 +1,21 @@
+.navigation {
+  background-color: rgb(231, 231, 231);
+  padding: 10px 20px 10px 20px;
+
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  &__item {
+    text-decoration: none;
+    margin-right: 7px;
+    font-weight: bold;
+    color: gray;
+
+    &:hover {
+      color: rgb(65, 65, 65);
+    }
+  }
+}
